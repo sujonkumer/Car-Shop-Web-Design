@@ -1,0 +1,796 @@
+/***************************************
+****************************************>
+	Project Name : Project Name.
+	Project Author : Sujon Kumer.
+	Project Date : 
+	Email : sujonkumar080@gmail.com.
+	Contact Number: 01785408231 ;
+
+
+	1  Header
+	2. Slider
+	3. Product
+	4. navbar
+	5. artical
+	6. aside
+	7. footer
+
+ <**************************************
+ ***************************************/
+
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+
+/**********************************
+	Base Css Start
+**********************************/
+
+/**********************************
+	Base Css End
+**********************************/
+/**********************************
+	Common Css start 
+**********************************/
+.container{
+	margin: 0px 150px;
+}
+body{
+	padding: 0px;
+	margin:0px;
+}
+p,h1,h2,h3,h4,h5,h6{
+	padding: 0px;
+	margin:0px;
+	
+}
+a{
+	cursor:pointer;
+}
+
+/**********************************
+	Common Css End 
+***********************************/
+
+
+/*=======================================
+ Header Section Css Start 
+ ========================================*/
+ 
+ /*=======================================
+ Header Section Css End 
+ ========================================*/
+
+ /*Book_you_Free_Car_Inspection_start*/
+.Book_you_Free_Car_bg{
+	height: 240px;
+ 	width: 100%;
+ 	background-color: #253241;
+ 	color:#fff;
+}
+ .Book_you_Free_Car_Inspection{
+
+ 	display: flex;
+ 	justify-content: space-between;
+ 	position: relative;
+
+ }
+ .left_text_area h2,h6,p{
+ 	padding: 0px;
+ 	margin:0px;
+
+ }
+ .left_text_area h2{
+ 	padding-bottom: 10px;
+ 	font-size: 35px;
+ }
+ .left_text_area p{
+ 	color:#939DA8;
+ }
+ .left_text_area{
+ 	padding-top: 85px;
+ }
+ .right_text_area h2,h6,p{
+ 	padding: 0px;
+ 	margin:0px;
+ }
+ .right_text_area h6{
+ 	padding-bottom: 10px;
+ }
+ .right_text_area h6{
+ 	color:#939DA8;
+ }
+ .right_text_area{
+ 	padding-top: 85px;
+ }
+ .get_regested_button{
+ 	padding: 85px 0px 0px 82px;
+ }
+.get_regested_button button{
+	border:none;
+	padding: 20px 60px;
+	color:#fff;
+	background-color: #D01818;
+	text-transform: uppercase;
+	cursor: pointer;
+
+}
+.get_regested_button button:hover{
+	background-color: #FF0101;
+}
+ /*Book_you_Free_Car_Inspection_end*/
+ /*Count_area_start*/
+.count_area{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-gap: 30px;
+	position: absolute;
+	top:215px;
+	z-index: 9999;
+} 
+.count_area div{
+	height: 150px;
+	width: 244px;
+	background-color: #ddd;
+	text-transform: uppercase;
+	text-align: center;
+}
+.count_area div h3,h1{
+	padding: 0px;
+ 	margin:0px;
+}
+.count_area div h3{
+	    padding: 38px 0px 10px 0px;
+}
+.count_area div h1{
+	font-size: 36px;
+}
+/*Count_area_end*/
+
+/*Our_Vehicles_Listing_wrapper_start*/
+.Our_Vehicles_Listing_wrapper{
+	padding-top: 200px;
+	padding-bottom: 100px;
+}
+.head_text{
+	text-align: center;
+
+}
+.head_text p{
+	font-size: 15px;
+	color:#939DA8;
+	text-transform: uppercase;
+}
+.head_text h1{
+	font-size: 40px;
+
+}
+/* car menu area start*/
+.menu_area{
+}
+.menu_area ul{
+	display: flex;
+	list-style-type: none;
+	padding-left: 195px;
+	padding-top: 30px;
+
+}
+.menu_area ul li{
+	padding: 0px 10px;
+}
+.menu_area ul li a{
+	text-decoration: none;
+	padding: 10px 25px;
+	background-color: #F1F5FA;
+}
+.menu_area ul li a:hover{
+	color:#fff;
+	background-color: #D01818;
+}
+.menu_area ul li a.active{
+	background-color:#D01818;
+	color:#fff;
+}
+/*car menu area end*/
+
+
+
+
+/*Our_Vehicles_Listing_wrapper_end*/
+/*Our_Vehicles_box_area_wrapper_start*/
+.Our_Vehicles_box_area_wrapper{
+	padding-top: 35px;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 20px;
+}
+.Our_Vehicles_box_area_wrapper .box{
+
+	background-color: #253241;
+	height: 470px;
+	width: 340px;
+}
+.box>.img_div{
+	background-color:#CCCCCC ;
+	height: 280px;
+	width: 340px;
+	
+}
+.text_div {
+	text-align: center;
+	color: #fff;
+}
+.text_div ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+} 
+.text_div ul li a{
+	text-decoration: none;
+}
+.text_div h2{
+	padding: 30px 0px;
+}
+.text_div ul{
+	padding: 0px 20px;
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 25px;
+
+}
+.text_div ul li{
+	border-right: 1px solid #5D6670;
+	padding-right:7px;
+}
+.text_div ul li:last-child{
+	border:none;
+	padding-right: 0px;
+} 
+.doler_area{
+	border-top:1px solid #5D6670;
+}
+.doler_area h1{
+	padding-top: 10px;
+    font-size: 34px;
+}
+
+/*Our_Vehicles_box_area_wrapper_end*/
+
+/*How_Revus_Works_wrapper start*/
+.How_Revus_Works_wrapper{
+	height: 450px;
+	width: 100%;
+	background-color: #F1F5FA;
+}
+.How_Revus_Works_wrapper>.head_text{
+	text-align: center;
+	}
+.How_Revus_Works_wrapper>.head_text p{
+	padding-top: 40px;
+}
+.How_Revus_Works_wrapper>.head_text h1{
+	padding-bottom: 30px;
+}
+.number_count_area {
+	display: flex;
+	justify-content: space-around;
+}
+.number_count_area div>h1{
+	font-size: 80px;
+	color:#CCCCCC;
+}
+.num_bottom_text_area{
+	display: flex;
+	justify-content: space-around;
+}
+.num_bottom_text_area div{
+	text-align: center;
+	width: 250px;
+}
+.num_bottom_text_area div h3{
+	color: #7A808A;
+	padding: 20px 0px;
+}
+.num_bottom_text_area div p{
+	color:#9C9FA1;
+	line-height: 22px;
+}
+/*How_Revus_Works_wrapper end*/
+/*two_card_wrapper start */
+.two_card_wrapper{
+	display: flex;
+	justify-content: space-around;
+	padding-top: 100px;
+	padding-bottom: 60px;
+	text-align: center;
+	color:#fff;
+	margin: 0px 150px;
+}
+.card1{
+	height: 200px;
+	width: 400px;
+	background-color: #253241;
+clip-path: polygon(50% 0%, 100% 0, 100% 100%, 10% 100%, 0 91%, 0 0);/*	background-image: url(../../assets/image/card1.png);*/
+}
+.card1 h2{
+	padding-top: 70px;
+	padding-bottom: 20px;
+	text-transform: uppercase;
+}
+.card2 {
+	height: 200px;
+	width: 400px;
+	background-color: #D01818;
+	clip-path: polygon(88% 0, 100% 11%, 100% 100%, 0 100%, 0 0);
+	/*background-image: url(../../assets/image/card2.png);*/
+}
+.card2 h2{
+	padding-top: 70px;
+	padding-bottom: 20px;
+	text-transform: uppercase;
+}
+
+/*two_card_wrapper end */
+
+ /*all brands cars area start */
+ .all_brands_cars{
+ 	display: flex;
+
+ }
+ .all_brands_cars div{
+ 	height: 400px;
+ 	width: 33.33%;
+ 	color: #fff;
+ 	box-shadow: -1px 5px 15px -4px rgba(0,0,0,0.75);
+ 	background-image:linear-gradient(#D0D0D0, #050505); 
+ } 
+ .car_box1 ul{
+ 	padding: 0px;
+ 	margin: 0px;
+ 	list-style: none;
+ 	display: flex;
+ }
+  .car_box1 ul li{
+  	padding: 0px 10px;
+  	border-right: 1px solid #666666;
+  }
+    .car_box1 ul li:last-child{
+    	border-right: none;
+    }
+    .car_box1 h1{
+    	font-size: 35px;
+    	text-transform: uppercase;
+    	padding: 20px 0px 0px 50px;
+    }
+    .car_box1 h2{
+    	padding: 10px 0px 0px 50px;
+    }
+    .car_box1 ul{
+    	padding: 20px 0px 0px 40px;
+    }
+    .new{
+    	display:inline-block;
+    	background-color: #D01818;
+    	padding: 5px 10px ;
+    	margin:190px 0px 0px 50px;
+    }
+.car_box2 .new{
+		display:inline-block;
+    	background-color: #D01818;
+    	padding: 5px 10px ;
+    	margin:190px 0px 0px 0px;
+}
+.car_box2 h3{
+	font-size: 25px;
+	padding:20px 0px 0px 50px;
+}
+.car_box2 h1{
+	font-size: 35px;
+	padding:10px 0px 0px 50px;
+}
+.car_box2>.text_space{
+	letter-spacing: 8px;
+	padding:20px 0px 0px 100px;
+}
+.car_box3 h3{
+	font-size: 25px;
+	padding:20px 0px 0px 50px;
+}
+.car_box3 h1{
+	font-size: 30px;
+	padding:10px 0px 0px 50px;
+}
+.car_box3>.text_space{
+	letter-spacing: 8px;
+	padding:20px 0px 0px 100px;
+}
+.car_box3 .more_power{
+	display: inline-block;
+	padding:5px 10px;
+	margin-top: 190px;
+	background-color: #D01818;
+}
+ /*all brands cars area end */
+/**********************************************
+Start Protfilo Section
+***********************************************/
+
+.our_selse_heading_text{
+	padding-top: 40px;
+	text-align: center;
+}
+.our_selse_heading_text p{
+	text-transform: uppercase;
+	color:#525A64;
+}
+.our_selse_heading_text h1{
+	font-size: 50px;
+	padding-bottom: 40px;
+}
+
+.main-selector{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 20px;
+}
+.selector {
+  position: relative;
+  width: 350px;
+  border:1px 1px 0px 1px solid #fff;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.image {
+  display: block;
+  width: 350px;
+  height: 350px;
+  transition: .5s all ease;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 350px;
+  width: 350px;
+  opacity: 0;
+  transition: .5s all ease;
+  background-color: #D01818;
+}
+.selector:hover .image {
+	transform: scale(1.5);
+	transition: 1s all ease;
+}
+.selector:hover .overlay {
+	transition: 1s all ease;
+  	opacity: 1;
+}
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  transition: 1s all ease;
+}
+.text ul{
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	list-style: none;
+	line-height: 50px;
+	transition: .5s all ease;
+}
+.text ul li{
+	margin-right: 10px;
+	height: 50px;
+	width: 50px;
+	background-color: #fff;
+	border:1px solid #fff;
+	border-radius: 50px;
+	transition: .5s all ease;
+}
+.text ul li:hover a{
+	color: #D01818;
+	font-size: 25px;
+}
+.text ul li a{
+	font-size: 20px;
+	color: #000;
+}
+
+.over_bottom_text{
+	box-sizing: border-box;
+	padding: 25px 0px 10px 30px;
+	color:#fff;
+	background-color: #253241;
+	height: 120px;
+	width: 350px;
+
+}
+.over_bottom_text h2{
+	font-size: 30px;
+	padding-bottom: 10px;
+}
+.salse_phn{
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom:1px solid #DDDDDD;
+}
+
+/**********************************************
+End Protfilo Section
+***********************************************/
+
+/*News_&_Articles start*/
+.News_Articles{
+	padding: 60px 0px 40px 0px;
+}
+.news_head_text {
+	text-align: center;
+}
+.news_head_text p{
+	text-transform: uppercase;
+	color:#D2D4D7;
+	padding-bottom: 10px;
+}
+.news_head_text h1{
+	font-size: 45px;
+	padding-bottom: 40px;
+
+}
+.news_box_wrapper{
+	padding-bottom: 30px;
+	display: grid;
+	grid-template-columns: auto auto auto ;
+	grid-gap: 20px;
+}
+.news_box1{
+	background-color: #CCCCCC;
+	width: 360px;
+	height: 280px;
+}
+.news_box2{
+	background-color: #CCCCCC;
+	width: 360px;
+	height: 280px;
+}
+.news_box3{
+	background-color: #CCCCCC;
+	width: 360px;
+	height: 280px;
+}
+.news_text_box_wrapper{
+
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 20px;
+}
+
+.news_text_box1 ul{
+	padding: 0px;
+	margin:0px;
+	display: flex;
+	list-style: none;
+	padding-bottom: 15px;
+}
+.news_text_box1 ul li{
+	color:#9EA1A6;
+}
+.news_text_box1 h1{
+	color:#6B737D;
+	padding-bottom: 15px;
+}
+.news_text_box1 p{
+	color:#8B8B8B;
+	padding-bottom: 30px;
+	line-height: 25px;
+	text-align: justify;
+}
+.second_child_nwes_ul{
+	display: flex;
+	justify-content: space-between;
+}
+.second_child_nwes_ul li a{
+	padding-bottom: 5px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color:#253241;
+	border-bottom: 2px solid #253241;
+
+} 
+.second_child_nwes_ul li a:hover{
+	color:#D64343;
+	border-bottom: 2px solid #D64343;
+}
+
+
+/*News_&_Articles end*/
+
+
+/*Buy Sell Your Car Quickly & Easily with Revus  start*/
+.Buy_Sell_Your_Car_Quickly {
+	background-color: #253241;
+	height: 300px;
+	text-align: center;
+}
+.Buy_Sell_Your_Car_Quickly h1{
+	color: #fff;
+	font-size: 30px;
+	padding: 50px 0px 15px 0px;
+
+}
+.Buy_Sell_Your_Car_Quickly p{
+	color:#B5BEC9;
+	padding-bottom: 60px;
+}
+.Buy_Sell_Your_Car_Quickly a{
+	background-color: #D01818;
+    font-size: 29px;
+    padding: 15px 25px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.Buy_Sell_Your_Car_Quickly a:hover{
+	background-color: #FF0101;
+
+}
+
+/*Buy Sell Your Car Quickly & Easily with Revus  end*/
+
+ /*footer_section_start*/
+ footer{
+ 	margin: 50px 0px 0px 0px;
+ 	background-color: #121820;
+ 	height: 550px;
+ 	width: 100%;
+ }
+ .logo{
+ 	padding-top: 40px;
+ 	text-align: center;
+ }
+  .social_icon ul{
+ 	display: flex;
+ 	list-style: none;
+ 	line-height: 40px;
+ 	justify-content: center;
+ 	margin-left: -25px;
+ }
+  .social_icon ul li{
+	height: 40px;
+	width: 40px;
+	background-color: #ddd;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+ .social_icon ul li a{
+ 	padding-left: 15px;
+ 	color:red;
+ }
+   .social_icon ul li a:hover{
+   	color:#56AB2F;
+   }
+  .f_all_text_area{
+  	padding-top: 40px;
+  	display: flex;
+  	justify-content: space-between;
+  	color:#8D9297;
+  }
+  .f_1_div{
+	width:35%;
+	padding-right: 40px;
+  }
+  .f_1_div p{
+  	line-height: 25px;
+  }
+  .f_1_div p:first-child{
+  	text-align: justify;
+  	padding-bottom: 20px;
+  	line-height: 20px;
+
+  }
+
+  .f_2_div{
+  	width: 30%;
+  }
+  .f_2_div h2{
+  	color:#fff;
+  }
+  .f_2_div ul{
+  	list-style: none;
+  	margin: 0px;
+  	padding:0px;
+  	padding-top: 20px;
+  }
+  .f_2_div ul li a{
+	padding-left: 10px;
+	color:#8D9297;
+	text-decoration: none;
+	line-height: 24px;
+
+  }
+   .f_2_div ul li a:hover{
+   	color:#fff;
+   }
+  .f_3_div{
+  	width: 30%;
+  }
+  .f_3_div h2{
+  	color:#fff;
+  	margin: 0px;
+  	padding:0px;
+  }
+  .f_3_div ul{
+  	list-style: none;
+  	margin: 0px;
+  	padding:0px;
+  	padding-top: 20px;
+  }
+  .f_3_div ul li a{
+	padding-left: 10px;
+	color:#8D9297;
+	text-decoration: none;
+	line-height: 24px;
+  }
+  .f_3_div ul li a:hover{
+   	color:#fff;
+   }
+  .f_4_div h2{
+  	color:#fff;
+  	padding-bottom: 20px;
+  }
+  .f_4_div p{
+  	padding-bottom: 10px;
+  }
+  .f_4_div input[type=text]{
+  	padding:15px 10px 15px 10px;
+  	width: 260px;
+  	border:none;
+  	margin-bottom: 10px;
+  }
+  .f_4_div input[type=submit]{
+  	padding:10px 15px 10px 15px;
+  	background-color: #D01818;
+  	color:#fff;
+  	border:none;
+  }
+  .copy_right{
+  	padding-top: 50px;
+  	text-align: center;
+  }
+  .copy_right p{
+  	display: inline;
+  	color:#555555;
+  }
+  .copy_right a{
+  	color:#A9AEB3;
+  }
+  .copy_right a:hover{
+  	color:#fff;
+  }
+  .go_top_div a img{
+  	float: right;
+  	margin-right: 70px;
+  	margin-top: -110px;
+  	
+  }
+  .go_top_div a img:hover{
+  	box-shadow: 0px 0px 15px 8px rgba(33,73,194,1);
+  }
+
+/*go to top start*/
+  html {
+  scroll-behavior: smooth;
+}
+/*go to top end*/
+
+
+   /*footer_section_end*/
+
